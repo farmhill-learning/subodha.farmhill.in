@@ -2,9 +2,10 @@ project:
   type: website
 
 website:
-  title: Subodha Learning Community 
+  title: Subodha 
   favicon: /images/subodha-logo.png
   navbar:
+    logo: images/subodha-navbar-logo.png
     background: primary
     left:
       - href: index.qmd

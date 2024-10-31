@@ -1,6 +1,6 @@
 ---
 title: "Subodha Learning Community"
-subtitle: Supporting Neurodiversity
+subtitle: Supporting Neurodiverse Families
 page-layout: custom
 
 format:
