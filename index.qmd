@@ -1,7 +1,20 @@
 ---
 title: "Subodha Learning Community"
+subtitle: Supporting Neurodiversity
+page-layout: custom
+
+format:
+  html:
+    template-partials:
+      - _theme/hero/title-block.html
+
+buttons:
+    - text: Know More...
+      href: /about/
+      class: primary
+
+# hero-background-image: images/banner.jpg
+hero-background-color: "#639f4b"
+hero-color: white
+
 ---
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
