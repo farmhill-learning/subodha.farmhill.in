@@ -3,7 +3,10 @@ project:
 
 website:
   title: "Subodha Learning Community"
+  favicon: /images/subodha-logo.png
   navbar:
+    background: primary
+    logo: /images/subodha-navbar-logo.png
     left:
       - href: index.qmd
         text: Home
@@ -11,9 +14,11 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      - cosmo
+      - theme.scss
     css: styles.css
-    toc: true
+    toc: false
 
 
 
