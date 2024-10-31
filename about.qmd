@@ -2,4 +2,5 @@
 title: "About"
 ---
 
-About this site
+Subodha Learning Community is an intiative of Farm Hill Education Trust. 
+
