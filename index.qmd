@@ -9,7 +9,7 @@ format:
       - _theme/hero/title-block.html
 
 buttons:
-    - text: Know More...
+    - text: Know More
       href: /about.html
       class: primary
 
