@@ -2,11 +2,11 @@ project:
   type: website
 
 website:
-  title: Subodha 
+  title: <span style="font-family:Harrington"> Subodha </span> 
   favicon: /images/subodha-logo.png
   navbar:
-    logo: images/subodha-navbar-logo.png
-    background: primary
+    logo: images/subodha-logo.png
+    background: "#d3b973"
     left:
       - href: index.qmd
         text: Home

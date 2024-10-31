@@ -1,5 +1,5 @@
 ---
-title: "Subodha Learning Community"
+title: Subodha Learning Community
 subtitle: Supporting Neurodiverse Families
 page-layout: custom
 
@@ -14,7 +14,8 @@ buttons:
       class: primary
 
 # hero-background-image: images/banner.jpg
-hero-background-color: "#639f4b"
-hero-color: white
+hero-background-color: "#FDF4EE"
+hero-color: "#4C6946"
 
 ---
+
