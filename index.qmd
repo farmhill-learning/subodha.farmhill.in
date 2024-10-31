@@ -10,7 +10,7 @@ format:
 
 buttons:
     - text: Know More...
-      href: /about/
+      href: /about.html
       class: primary
 
 # hero-background-image: images/banner.jpg
