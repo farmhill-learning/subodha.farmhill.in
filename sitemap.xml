@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://subodha.farmhill.in/gallery/index.html</loc>
-    <lastmod>2024-11-01T14:25:47.700Z</lastmod>
-  </url>
-  <url>
-    <loc>https://subodha.farmhill.in/index.html</loc>
-    <lastmod>2024-11-01T14:25:47.716Z</lastmod>
-  </url>
-  <url>
-    <loc>https://subodha.farmhill.in/people/index.html</loc>
-    <lastmod>2024-11-01T14:25:47.716Z</lastmod>
-  </url>
-  <url>
-    <loc>https://subodha.farmhill.in/contact/index.html</loc>
-    <lastmod>2024-11-01T14:25:47.696Z</lastmod>
-  </url>
-  <url>
-    <loc>https://subodha.farmhill.in/about.html</loc>
-    <lastmod>2024-11-01T14:25:47.696Z</lastmod>
+    <loc>https://subodha.farmhill.in/programs/programs.html</loc>
+    <lastmod>2024-11-01T14:39:15.420Z</lastmod>
   </url>
   <url>
     <loc>https://subodha.farmhill.in/gallery/deepavali-2024/index.html</loc>
-    <lastmod>2024-11-01T14:25:47.696Z</lastmod>
+    <lastmod>2024-11-01T14:39:15.376Z</lastmod>
+  </url>
+  <url>
+    <loc>https://subodha.farmhill.in/about.html</loc>
+    <lastmod>2024-11-01T14:39:15.376Z</lastmod>
+  </url>
+  <url>
+    <loc>https://subodha.farmhill.in/contact/index.html</loc>
+    <lastmod>2024-11-01T14:39:15.376Z</lastmod>
+  </url>
+  <url>
+    <loc>https://subodha.farmhill.in/people/index.html</loc>
+    <lastmod>2024-11-01T14:39:15.400Z</lastmod>
+  </url>
+  <url>
+    <loc>https://subodha.farmhill.in/index.html</loc>
+    <lastmod>2024-11-01T14:39:15.396Z</lastmod>
+  </url>
+  <url>
+    <loc>https://subodha.farmhill.in/gallery/index.html</loc>
+    <lastmod>2024-11-01T14:39:15.384Z</lastmod>
   </url>
 </urlset>
