@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-programs .list');
+    const listingTargetEl = window.document.querySelector('#listing-approach .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -85,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-programs'] = new List('listing-programs', options);
+    window['quarto-listings']['listing-approach'] = new List('listing-approach', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -184,9 +184,9 @@ window.Quarto = {
 
 
 <p><img src="images/subodha-body-logo.png" class="img-fluid"></p>
-<section id="our-approach" class="level2 container home">
-<h2 data-anchor-id="our-approach">Our Approach</h2>
-<div id="listing-programs" class="quarto-listing quarto-listing-container-custom">
+<section id="programs" class="level2 container home">
+<h2 data-anchor-id="programs">Programs</h2>
+<div id="listing-approach" class="quarto-listing quarto-listing-container-custom">
 
 <div class="grid">
 
