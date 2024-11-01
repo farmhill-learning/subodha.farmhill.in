@@ -1,6 +1,11 @@
 ---
+sidebar: false
+toc: false
 page-layout: custom
-
+format:
+  html:
+    template-partials:
+      - _theme/hero/title-block.html
     
 listing:
   - id: approach
