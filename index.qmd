@@ -1,25 +1,16 @@
-<!---
 ---
-title: Subodha Learning Community
-subtitle: Supporting Neurodiverse Families
+title: Subodha
 page-layout: custom
 
-format:
-  html:
-    template-partials:
-      - _theme/hero/title-block.html
-
-buttons:
-    - text: Know More
-      href: /about.html
-      class: primary
-
-# hero-background-image: images/banner.jpg
-hero-background-color: "#FDF4EE"
-hero-color: "#4C6946"
+    
+listing:
+  - id: approach
+    template: _theme/two-column-sections.ejs
+    contents: approach.yml
 
 ---
---->
+
+
 ![](images/subodha-body-logo.png)
 
 ::: {.container .home}
@@ -35,7 +26,6 @@ hero-color: "#4C6946"
 
 :::
 
-:::
 
 
 
