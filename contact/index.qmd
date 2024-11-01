@@ -11,7 +11,7 @@ page-layout: full
     </div>
     <div class="g-col-12 g-col-md-4 bg-light p-3 my-2 border">
         <div><strong><i class="bi bi-telephone"></i> PHONE</strong></div>
-        <div><a href="tel:+918431032239">+91 7760764217</a></div>
+        <div><a href="tel:+917760764217">+91 7760764217</a></div>
     </div>
     <div class="g-col-12 g-col-md-4 bg-light p-3 my-2 border">
         <div><strong><i class="bi bi-whatsapp"></i> WHATSAPP</strong></div>
