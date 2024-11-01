@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/gallery/index.html",
+    "items": [
+      "/gallery/deepavali-2024/index.html"
+    ]
+  },
+  {
     "listing": "/people/index.html",
     "items": []
   }

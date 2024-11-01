@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Life at Subodha, in pictures!">
 
-<title>index</title>
+<title>Gallery</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +24,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href=".//images/subodha-logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="..//images/subodha-logo.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,12 +70,70 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="styles.css">
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -85,23 +146,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./people/index.html"> 
+    <a class="nav-link" href="../people/index.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./gallery/index.html"> 
+    <a class="nav-link active" href="../gallery/index.html" aria-current="page"> 
 <span class="menu-text">Gallery</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact/index.html"> 
+    <a class="nav-link" href="../contact/index.html"> 
 <span class="menu-text">Contact Us</span></a>
   </li>  
 </ul>
@@ -115,82 +176,73 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Gallery</h1>
+</div>
+
+<div>
+  <div class="description">
+    Life at Subodha, in pictures!
+  </div>
+</div>
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 
 
-<!---
 
 
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1727740800000" data-listing-file-modified-sort="1730441855849" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
+<a href="../gallery/deepavali-2024/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../gallery/deepavali-2024/photos/003.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Deepavali!
+</h5>
+<div class="card-text listing-description">
+The first Deepavali Celebration at Subodha!
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
 
-
----
-title: Subodha Learning Community
-subtitle: Supporting Neurodiverse Families
-page-layout: custom
-
-format:
-  html:
-    template-partials:
-      - _theme/hero/title-block.html
-
-buttons:
-    - text: Know More
-      href: /about.html
-      class: primary
-
-# hero-background-image: images/banner.jpg
-hero-background-color: "#FDF4EE"
-hero-color: "#4C6946"
-
----
-
-
-
-
---->
-<p><img src="images/subodha-body-logo.png" class="img-fluid"></p>
-<section id="programs" class="level1">
-<h1>Programs</h1>
-<p>At Subodha, we focus on supporting families living with neurodiversity. We usually work with families whose children are 10 to 18 years old.</p>
-<section id="family-training-program-ftp" class="level2">
-<h2 class="anchored" data-anchor-id="family-training-program-ftp">Family Training Program (FTP)</h2>
-<p>This is a 3 month program that is offered to every family that wishes to join Subodha Community. During this program, groups of 5 to 7 parents and their children work with a team of therapists, for half a day everyday.</p>
-<p>The objective of the program is for all of us to look at the working relationship between the parents and the child, and also try learn how to improving it.</p>
-<p>In our experience, FTP has been very enriching for the parents as well as the therapists and has usually resulted in significant improvement in the quality of life for the family.</p>
-<p>The three month period of the FTP also helps the parents get to know about the community and comfortably make a decision to continue to work together.</p>
-</section>
-<section id="homeschool-support" class="level2">
-<h2 class="anchored" data-anchor-id="homeschool-support">Homeschool Support</h2>
-<p>This program is aimed at parents who feel the need to continue to work with their children, instead of outsourcing their education and training to schools or therapy centers.</p>
-<p>Upto 5 parents come together to form a homeschool group. Senior resources at the center provide help and guidance in crafting Individual Educaitonal Program for each child. The parents take the role of teachers to work with their children. Each homeschool group is supported by therapists in their day to day work.</p>
-<p>Homeschool groups stay at the center from 10am to 4pm and usually work with a timetable, planned activities etc., just like a school.</p>
-</section>
-<section id="after-school-support" class="level2">
-<h2 class="anchored" data-anchor-id="after-school-support">After-school Support</h2>
-<p>Neurodiverse children who attend schools usually tend to need specific help in academics as well as social skills. After-school support is aimed at providing such support.</p>
-<p>The sessions are conducted in the evening for about 1.5 hours, from Monday to Friday.</p>
-</section>
-<section id="intensive-support" class="level2">
-<h2 class="anchored" data-anchor-id="intensive-support">Intensive Support</h2>
-<p>Some learners continue to need intensive, one-to-one support in various areas like academic skills, activities of daily living and social skills. Subodha offers half day intensive programs where the learner stays at the center from 10am to 1pm, supported by a full time resource.</p>
-<section id="need-support" class="level4 page-cta">
-<h4 class="anchored" data-anchor-id="need-support">Need support?</h4>
-<p>Write to us!</p>
-<p><a href="./contact" class="btn btn-primary">Contact Us</a></p>
-</section>
-
-
-</section>
-</section>
-
-</main> <!-- /main -->
+</div>
+<div class="listing-date">
+Oct 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

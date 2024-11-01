@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://subodha.farmhill.in/gallery/index.html</loc>
+    <lastmod>2024-11-01T06:17:35.853Z</lastmod>
+  </url>
+  <url>
     <loc>https://subodha.farmhill.in/index.html</loc>
-    <lastmod>2024-11-01T05:18:54.612Z</lastmod>
+    <lastmod>2024-11-01T06:17:35.861Z</lastmod>
   </url>
   <url>
     <loc>https://subodha.farmhill.in/people/index.html</loc>
-    <lastmod>2024-11-01T05:18:54.612Z</lastmod>
+    <lastmod>2024-11-01T06:17:35.861Z</lastmod>
   </url>
   <url>
     <loc>https://subodha.farmhill.in/contact/index.html</loc>
-    <lastmod>2024-11-01T05:18:54.604Z</lastmod>
+    <lastmod>2024-11-01T06:17:35.849Z</lastmod>
   </url>
   <url>
     <loc>https://subodha.farmhill.in/about.html</loc>
-    <lastmod>2024-11-01T05:18:54.604Z</lastmod>
+    <lastmod>2024-11-01T06:17:35.849Z</lastmod>
+  </url>
+  <url>
+    <loc>https://subodha.farmhill.in/gallery/deepavali-2024/index.html</loc>
+    <lastmod>2024-11-01T06:17:35.849Z</lastmod>
   </url>
 </urlset>
