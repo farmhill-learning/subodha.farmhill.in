@@ -11,7 +11,12 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - contact/index.qmd
+      - people/index.qmd
+      - gallery/index.qmd
+      - contact/index.qmd 
+    
+
+      
 
     tools:
       - icon: whatsapp
