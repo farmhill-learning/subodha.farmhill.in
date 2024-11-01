@@ -3,9 +3,9 @@ page-layout: custom
 
     
 listing:
-  - id: programs
+  - id: approach
     template: _theme/two-column-sections.ejs
-    contents: programs.yml
+    contents: approach.yml
 
 ---
 
@@ -16,9 +16,9 @@ listing:
 ::: {.container .home}
 
 
-## Our Approach
+## Programs
 
-::: {#programs}
+::: {#approach}
 :::
 
 :::
