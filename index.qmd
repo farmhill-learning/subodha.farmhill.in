@@ -12,16 +12,11 @@ listing:
 
 ![](images/subodha-body-logo.png)
 
-::: {.container .home}
-
-::: {.grid .list-style-none .home-services}
-:::
 
 ## Programs
 
 ::: {#programs}
 
-:::
 
 :::
 
