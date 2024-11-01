@@ -5,3 +5,19 @@ page-layout: full
 
 Subodha Learning Community is an intiative of Farm Hill Education Trust. 
 
+
+
+
+
+
+
+
+::: {.page-cta}
+
+#### Need support?
+
+Write to us!
+
+<a href="/contact" class="btn btn-primary">Contact Us</a>
+
+:::
