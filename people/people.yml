@@ -12,6 +12,15 @@
     In addition to her comprehensive understanding of autism, Miftah's  deep empathy 
     for neurodiverse families is her superpower. 
 
+- name: Sunayana
+  subtitle: Senior Therapist
+  photo: sunayana.jpg
+  bio: |
+    Sunayana is a natural leader, ever willing to step up and take charge. 
+    She is the first choice for executing any new idea - if it can work, she will make it work.
+    Sunayana is also the go to person for all things technical, for the team. Her quirky sense of humor
+    and sportiveness ensure the center remains lively through the day. 
+
 - name: Nidhi
   subtitle: Senior Therapist
   photo: nidhi.jpg
@@ -28,14 +37,18 @@
     color and joy! She is ever ready to volunteer and participates enthusiastically in all the activities
     at the center. Her calming presence adds a lot to the therapy and teaching work she does. 
 
-- name: Sunayana
-  subtitle: Senior Therapist
-  photo: sunayana.jpg
+- name: Harsha
+  subtitle: Therapist
+  photo: harsha.jpg
   bio: |
-    Sunayana is a natural leader, ever willing to step up and take charge. 
-    She is the first choice for executing any new idea - if it can work, she will make it work.
-    Sunayana is also the go to person for all things technical, for the team. Her quirky sense of humor
-    and sportiveness ensure the center remains lively through the day. 
+    Harsha is an excellent therapist.
+
+- name: Thejaswini
+  subtitle: Therapist
+  photo: thejaswini.jpg
+  bio: |
+    Thejaswini is an excellent therapist.
+
 
 
 
