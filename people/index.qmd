@@ -1,0 +1,16 @@
+---
+## Edit the people.yml file if you want to modify the list of people
+
+title: "People"
+page-layout: full
+listing:
+  - id: people
+    template: ../_theme/people.ejs
+    contents: people.yml
+---
+Subodha is a community of parents and therapists, working together. Here is the team of therapists that hold this together, ensuring everything works!
+
+::: {#people}
+:::
+
+As a unit of Farm Hill Eduction trust, Subodha is supported by the trustees, as well as teams at the other two projects - Sambhavam and Farm Hill Learning. 
