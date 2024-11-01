@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About</title>
+<title>People</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href=".//images/subodha-logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="..//images/subodha-logo.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,9 +69,67 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-people .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="styles.css">
+    const options = {
+      valueNames: ['listing-name','listing-subtitle','listing-photo','listing-bio',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-subtitle","listing-photo","listing-bio"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-people'] = new List('listing-people', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -85,15 +145,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact/index.html"> 
+    <a class="nav-link" href="../contact/index.html"> 
 <span class="menu-text">Contact Us</span></a>
   </li>  
 </ul>
@@ -116,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">People</h1>
 </div>
 
 
@@ -133,7 +193,147 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Subodha Learning Community is an intiative of Farm Hill Education Trust.</p>
+<p>Subodha is a community of parents and therapists, working together. Here is the team of therapists that hold this together, ensuring everything works!</p>
+<div id="listing-people" class="quarto-listing quarto-listing-container-custom">
+
+    <div class="person rounded-2 border grid">
+        <div class="g-col-12 g-col-md-4 g-col-lg-2">
+            
+                <img class="square-image w-100" src="miftah.jpg">
+            
+        </div>
+        <div class="g-col-12 g-col-md-8 g-col-lg-10">
+            <div class="person-header text-center-sm">
+                <h4 class="anchored">Miftah</h4>
+                <div class="person-subtitle">Center Head</div>
+
+                
+            </div>
+
+            <p>Miftah is a veteran therapist, educator and team leader - She has worked with 
+various projects of Farmhill Education Trust for about a decade now. 
+With her experience in parent couselling, training and school 
+support programs, she 
+was a natural choice to lead the Subodha team. 
+In addition to her comprehensive understanding of autism, Miftah's  deep empathy 
+for neurodiverse families is her superpower. 
+
+            </p>
+        </div>
+    </div>
+
+    <div class="person rounded-2 border grid">
+        <div class="g-col-12 g-col-md-4 g-col-lg-2">
+            
+                <img class="square-image w-100" src="nidhi.jpg">
+            
+        </div>
+        <div class="g-col-12 g-col-md-8 g-col-lg-10">
+            <div class="person-header text-center-sm">
+                <h4 class="anchored">Nidhi</h4>
+                <div class="person-subtitle">Senior Therapist</div>
+
+                
+            </div>
+
+            <p>Nidhi a natural at therapy and teaching - with her energy, enthusiasm and expressiveness.
+She excels at teaching the children as well as training the parents. Her thoughtfulness
+and attention to detail come through in everything she does. 
+
+            </p>
+        </div>
+    </div>
+
+    <div class="person rounded-2 border grid">
+        <div class="g-col-12 g-col-md-4 g-col-lg-2">
+            
+                <img class="square-image w-100" src="nitika.jpg">
+            
+        </div>
+        <div class="g-col-12 g-col-md-8 g-col-lg-10">
+            <div class="person-header text-center-sm">
+                <h4 class="anchored">Nitika</h4>
+                <div class="person-subtitle">Senior Therapist</div>
+
+                
+            </div>
+
+            <p>Nitika is understated and quiet - and then you see her artwork that explodes with mischief, 
+color and joy! She is ever ready to volunteer and participates enthusiastically in all the activities
+at the center. Her calming presence adds a lot to the therapy and teaching work she does. 
+
+            </p>
+        </div>
+    </div>
+
+    <div class="person rounded-2 border grid">
+        <div class="g-col-12 g-col-md-4 g-col-lg-2">
+            
+                <img class="square-image w-100" src="sunayana.jpg">
+            
+        </div>
+        <div class="g-col-12 g-col-md-8 g-col-lg-10">
+            <div class="person-header text-center-sm">
+                <h4 class="anchored">Sunayana</h4>
+                <div class="person-subtitle">Senior Therapist</div>
+
+                
+            </div>
+
+            <p>Sunayana is a natural leader, ever willing to step up and take charge. 
+She is the first choice for executing any new idea - if it can work, she will make it work.
+Sunayana is also the go to person for all things technical, for the team. Her quirky sense of humor
+and sportiveness ensure the center remains lively through the day. 
+
+            </p>
+        </div>
+    </div>
+
+<style type="text/css">
+.person {
+    background: #f0f0f0;
+    padding: 20px;
+    margin: 20px 0px;
+    /* border: 1px solid #ddd; */
+}
+
+.person h4 {
+    margin: 0px !important;
+}
+
+.person-photo {
+    margin: -20px;
+}
+
+/* .person img {
+    background-clip: border-box;
+    border-radius: 50%;
+} */
+
+.person-subtitle {
+    font-style: italic;
+    color: #666;
+}
+
+.person-header {
+    margin-bottom: 10px;
+}
+
+/*
+@media (max-width: 576px) {
+    .person-header {
+        text-align: center;
+    }
+}
+*/
+
+</style>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<p>As a unit of Farm Hill Eduction trust, Subodha is supported by the trustees, as well as teams at the other two projects - Sambhavam and Farm Hill Learning.</p>
+
 
 
 
