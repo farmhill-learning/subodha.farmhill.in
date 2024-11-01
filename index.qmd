@@ -12,9 +12,15 @@ listing:
 
 ![](images/subodha-body-logo.png)
 
-## Programs
+
+::: {.container .home}
+
+
+## Our Approach
 
 ::: {#programs}
+:::
+
 :::
 
 
