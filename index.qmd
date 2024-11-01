@@ -22,10 +22,23 @@ hero-color: "#4C6946"
 --->
 ![](images/subodha-body-logo.png)
 
+::: {.container .home}
+
+::: {.grid .list-style-none .home-services}
+:::
+
 ## Our Approach
 
 ::: {#approach}
+
 :::
+
+:::
+
+
+
+
+
 
 
 # Programs 
