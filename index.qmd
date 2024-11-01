@@ -8,9 +8,9 @@ format:
       - _theme/hero/title-block.html
     
 listing:
-  - id: approach
+  - id: programs
     template: _theme/two-column-sections.ejs
-    contents: approach.yml
+    contents: programs.yml
 
 ---
 
@@ -23,7 +23,7 @@ listing:
 
 ## Programs
 
-::: {#approach}
+::: {#programs}
 :::
 
 :::
