@@ -79,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-body',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-image','listing-body',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-body"],
+      searchColumns: ["listing-title","listing-image","listing-body"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -192,6 +192,22 @@ window.Quarto = {
 
     <div class="g-col-12 g-col-md-6">
         <div class="grid">
+        
+            <div class="g-col-12 g-col-md-4">
+                <img class="img-fluid" src="people/harsha.jpg">
+            </div>
+            <div class="g-col-12 g-col-md-8">
+                <h4 style="margin-top: 0px;">Family Training Program (FTP)</h4>
+                <div>A 3 month program offered to every family that wishes to join Subodha Community. 
+Groups of 5 to 7 parents and their children work with a team of therapists, for half a day everyday. 
+The objective of the program is for all of us to look at the working relationship between 
+the parents and the child, and also try learn how to improving it. 
+FTP has been very enriching for the parents as well as the therapists 
+and has usually resulted in significant improvement in the quality of life for the family. 
+The three month period of the FTP also helps the parents get to know about 
+the community and comfortably make a decision to continue to work together. 
+</div>
+            </div>
         
         </div>
     </div>
