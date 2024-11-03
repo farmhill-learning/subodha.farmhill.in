@@ -19,7 +19,11 @@ listing:
 
 ::: {.home-logo}
 
-![](images/subodha-body-logo.png)
+<!-- wide logo on big screen -->
+![](images/subodha-wide-logo.jpg){.d-none .d-md-block}
+
+<!-- tall logo on small screen -->
+![](images/subodha-body-logo.png){.d-md-none}
 
 :::
 
