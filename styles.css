@@ -85,3 +85,11 @@
     margin-top: 0px;
     margin-bottom: 0px !important;
 }
+
+.home-logo {
+    text-align: center;
+}
+
+.home-logo img {
+    max-height: 400px;
+}
