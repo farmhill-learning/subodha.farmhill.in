@@ -2,10 +2,10 @@ project:
   type: website
 
 website:
-  title: Subodha 
+  title: Subodha
   favicon: /images/subodha-logo.png
   navbar:
-    # logo: images/subodha-logo.png
+    logo: images/subodha-logo.png
     background: primary
     left:
       - href: index.qmd
@@ -14,10 +14,7 @@ website:
       - about.qmd
       - people/index.qmd
       - gallery/index.qmd
-      - contact/index.qmd 
-    
-
-      
+      - contact/index.qmd
 
     tools:
       - icon: whatsapp
@@ -25,11 +22,27 @@ website:
       - icon: instagram
         href: "https://www.instagram.com/subodhacommunity"
       - icon: facebook
-        href: https://facebook.com/subodhacommunity 
+        href: https://facebook.com/subodhacommunity
+
+  page-footer:
+    border: true
+    left: |
+      _Subodha Learning Community_ is an initiative of [_Farm Hill Education Trust_](https://farmhill.in).<br>
+      Other initiatives include [_Sambhavam Centre for Autism_](https://sambhavam-autism.com/)
+      and [_Farm Hill Learning Community_](https://farmhill-learning.org).
+
+    right:
+      - icon: whatsapp
+        href: "https://wa.me/918431032239?text=I%27m+interested+to+know+more+about+Subodha."
+      - icon: instagram
+        href: "https://www.instagram.com/subodhacommunity"
+      - icon: facebook
+        href: https://facebook.com/subodhacommunity
+
 
 format:
   html:
-    theme: 
+    theme:
       - cosmo
       - theme.scss
     css: styles.css
