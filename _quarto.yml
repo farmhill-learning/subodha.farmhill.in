@@ -8,8 +8,6 @@ website:
     logo: images/subodha-logo.png
     background: primary
     left:
-      - href: index.qmd
-        text: Home
       - programs/programs.qmd
       - about.qmd
       - people/index.qmd
