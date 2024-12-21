@@ -11,8 +11,10 @@ website:
       - programs/programs.qmd
       - about.qmd
       - people/index.qmd
+      - blog/index.qmd
       - gallery/index.qmd
       - contact/index.qmd
+      
 
     tools:
       - icon: whatsapp
