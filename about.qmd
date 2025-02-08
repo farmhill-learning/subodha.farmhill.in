@@ -1,12 +1,11 @@
 ---
-title: "About"
-Subtitle: "A detailed guide to Subodha"
+title: "Detailed Guide"
 page-layout: full
-toc: true
-toc-location: left-body
+callout-icon: false
+format: 
+    html:
+        css: styles.css
 ---
-
-# Outline of Our Work
 
 Subodha learning community is a unit of [Farmhill Education Trust](farmhill.in). 
 
@@ -18,6 +17,10 @@ In addition, we offer after school programs to support neurodiverse learners who
 
 We emphasise community support, enabling parents to work together and share childcare responsibilities. Subodha integrates celebrations and outdoor excursions to foster a sense of belonging and promote social and emotional development, while supporting families holistically.
 
+Click on the sections below to read more.
+
+::: {.callout-note collapse="true"}
+
 # Programs offered
 
 Subodha offers several programmes designed to support neurodiverse individuals and their families. These include:
@@ -26,11 +29,12 @@ Subodha offers several programmes designed to support neurodiverse individuals a
 - **Homeschooling Programme**: After completing the FTP, parents can opt to continue with a homeschooling setup, either at Subodha or independently with curriculum support. This programme helps build a supportive community where parents can share experiences and support one another. There are currently three homeschooling classrooms.
 - **After-School Programme**: This programme provides academic support, social skills development, and emotional regulation techniques to children who attend school but need additional support. It involves breaking down learning materials, using visual aids, and incorporating interactive games.
 
+::: {.callout-note collapse="true"}
+
+
 ## FTP
 
 The **Family Training Programme (FTP) at Subodha** is a cornerstone initiative designed to **build a strong, functional relationship between children and their parents**. It focuses on creating an environment of mutual understanding and cooperation, where both parents and children learn to listen to and understand each other.
-
-
 
 Key aspects and objectives of the FTP include:
 
@@ -44,6 +48,10 @@ Key aspects and objectives of the FTP include:
 - **Duration and Options**: The programme typically involves the parent and child attending the centre together for about three months. Following this, parents can choose to continue in a classroom setting at Subodha, opt for a homeschool setup, or receive curriculum support to homeschool independently.
 
 The FTP is designed to create a supportive and inclusive community where neurodiverse individuals and their families can thrive.
+
+:::
+
+::: {.callout-note collapse="true"}
 
 ## Homeschooling Support
 
@@ -68,6 +76,8 @@ Here's a detailed breakdown of the homeschooling support provided:
 - **Curriculum Mapping**: The homeschooling programme is mapped against NIOS (National Institute of Open Schooling) goals, tracking elementary-level progress in maths and EVS.
 - **Focus on Social Skills**: The programme recognises the importance of social interaction for cognitive development.
 - **NIOS Options**: Subodha supports students up to grade 10 and can accommodate non-math and science subjects like baking, painting, and home science, depending on the child's aptitude. The source notes that students can directly apply for grade 10.
+:::
+::: {.callout-note collapse="true"}
 
 ### Classes offered in homeschool program
 
@@ -82,6 +92,8 @@ The homeschooling programme at Subodha incorporates a variety of classes and act
 - **EVS/Science**: The curriculum offers support for **EVS (Environmental Studies)** goals. For older students, support is provided for NIOS (National Institute of Open Schooling).
    
 - **Leisure Activities**: Subodha offers daily **leisure classes** to promote **pre-vocational skills** and **community interaction**. These activities also provide opportunities for **experimentation and creativity.
+:::
+::: {.callout-note collapse="true"}
 
 #### English classes
 
@@ -95,6 +107,8 @@ Here are some key aspects of the English classes:
 - **Relevant Topics**: Topics covered include personal information, transport, road safety, and seasons. Lessons are also planned based on the immediate needs of the children, such as addressing inappropriate behaviours and teaching about boundaries, private and public spaces, and sexual education. These lessons help introduce rules and appropriate behaviours in different environments.
 - **Real-Life Application**: Lessons are planned to have real-life applications such as taste, utensils lessons.
 - **Emotional Nuance**: Vocabulary development extends to concepts like laziness and boredom.
+:::
+::: {.callout-note collapse="true"}
 
 #### Math classes
 
@@ -108,6 +122,8 @@ Here are some key aspects of the maths classes:
 - **Engagement**: Fun activities are used to connect academic learning to real life. For example, role-playing games, such as "maintaining shop", are used to teach maths skills.
 - **Role-Playing Games**: In the "maintaining shop" activity, children act as customers and teachers act as shopkeepers. The children choose items from a menu, calculate the amount, pay, and collect change, which reinforces addition, multiplication, and money skills. This activity also teaches important social skills and protocols.
 - **Individualised Approach**: The curriculum is individualised to suit the child, for instance, using a child's love for food to teach multiplication.
+:::
+::: {.callout-note collapse="true"}
 
 #### Cooking classes
 
@@ -128,6 +144,8 @@ Here’s a detailed look at what the cooking classes entail:
     - Recipes are planned based on the children’s skill levels
 - **Real-Life Application**:
     - Often, children make their own snacks and eat - and that's a very motivating real life application!
+:::
+::: {.callout-note collapse="true"}
 
 ## After school programs
 
@@ -149,6 +167,8 @@ The after-school programme at Subodha is designed to support children who find i
     - The leisure class also serves as a time for experimentation and preparation for celebrations at Subodha.
 
 The after-school programme is like a tuition class but more interactive and fun.
+:::
+::: {.callout-note collapse="true"}
 
 ### Success of the after school programme 
 
@@ -160,7 +180,9 @@ The after school programme at Subodha is very successful, with positive outcomes
 	- **Success Story - Dealing with Losing**: One student who initially had a very difficult time dealing with losing a game showed significant improvement after 6-8 months of consistent support, learning to cope with loss and even console others.
 - **Emotional Regulation**: The programme helps children acknowledge their feelings and learn effective coping strategies.
 	- **Success Story - Anxiety**: Breathing techniques are taught to children who experience anxiety during exams, helping them calm down and focus.
-
+:::
+:::
+::: {.callout-note collapse="true"}
 
 # Curriculum and Pedagogy
 
@@ -197,6 +219,8 @@ Subodha employs several key pedagogical approaches to create a supportive and in
 - **Leisure Activities** Offering daily leisure classes to promote prevocational skills, encourage experimentation, and foster interaction among children and parents from different groups.
 - **Celebrations** Celebrating various festivals to promote inclusivity and create a sense of community. Activities are planned to be relevant to the festival, and potluck lunches are organised.
 - **Outdoor Excursions** Organising trips to promote community and provide new experiences.
+:::
+::: {.callout-note collapse="true"}
 
 # Focus on needs of neurodiverse learners
 
@@ -261,6 +285,8 @@ Here are the key components of behaviour management at Subodha:
 - **Addressing Inappropriate Behaviours**: Lessons are planned to address immediate needs as they arise, including inappropriate behaviours and teaching about boundaries.
 - **Appropriate Alternative Behaviours**: When addressing inappropriate behaviors, we help teach appropriate alternative behaviors.
 - **Community Support**: The community environment at Subodha allows parents to support each other, sharing experiences and providing respite, which contributes to overall emotional well-being.
+:::
+::: {.callout-note collapse="true"}
 
 # Success stories
 
@@ -273,6 +299,8 @@ Subodha has several success stories and cases that highlight the effectiveness o
 - **Dealing with Losing**: A student in the after-school programme who had difficulty dealing with losing a game improved significantly after 6-8 months of consistent support. We acknowledged his feelings and provided him with alternate language to cope with the loss. Eventually, he was able to use the strategies he was taught to console others.
 - **Maths Engagement**: A child who initially showed no interest in learning about multiplication word problems became fully engaged when the problems were presented in the context of her love for food. By customising the learning material to her interests, she was able to provide all the right answers with minimal help.
 - **Eating Intervention**: A child who was not eating enough food, after two months of intervention is now eating food nicely and independently in the classroom.
+:::
+::: {.callout-note collapse="true"}
 
 # Long term goals and aspirations
 
@@ -287,6 +315,7 @@ Considering neurodiversity is something one is born with and needs to live with,
 - **Provide tailored educational support** that meets the unique needs and interests of each child. This involves customising learning materials, adapting teaching methods, and offering individualised interventions to address specific challenges. Subodha aims to support children up to grade 10, with options for non-traditional subjects that align with their aptitudes and interests.
 
 - **Promote social skills and emotional well-being** among neurodiverse children. This includes teaching children how to manage their emotions, interact positively with others, and navigate social situations effectively. The after-school programme and leisure activities provide opportunities for children to develop these skills in a supportive and structured environment.
+:::
 
 ::: {.page-cta}
 
