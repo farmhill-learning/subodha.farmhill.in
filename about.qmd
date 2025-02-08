@@ -1,9 +1,9 @@
 ---
 title: "About"
-Subtitle: A detailed guide to Subodha
+Subtitle: "A detailed guide to Subodha"
 page-layout: full
 toc: true
-toc-location: left
+toc-location: left-body
 ---
 
 # Outline of Our Work
