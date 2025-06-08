@@ -96,6 +96,6 @@
 }
 
 .callout-note {
-    
-    border-left: 5px solid #d3b973; /* primary color border */
+    border-left: 5px solid #d3b973 !important; /* primary color border */
+    background-color: #d3b97381 !important;
 }
